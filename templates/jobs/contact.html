@@ -4,6 +4,26 @@
 
 
 {% block content %}
+<!DOCTYPE html>
+<html lang="en-US">
+<body>
+
+<p>Translate this page:</p>
+
+<div id="google_translate_element"></div>
+
+<script type="text/javascript">
+function googleTranslateElementInit() {
+  new google.translate.TranslateElement({pageLanguage: 'en'}, 'google_translate_element');
+}
+</script>
+
+<script type="text/javascript" src="//translate.google.com/translate_a/element.js?cb=googleTranslateElementInit"></script>
+
+<p>You can translate the content of this page by selecting a language in the select box.</p>
+
+</body>
+</html>
 <section class="home-section section-hero inner-page overlay bg-image"
        style="background-image: url('{% static 'images/hero_1.jpg' %}');" id="home-section">
       <div class="container">
@@ -39,13 +59,13 @@
           <div class="col-lg-5 ml-auto">
             <div class="p-4 mb-3 bg-white">
               <p class="mb-0 font-weight-bold">Address</p>
-              <p class="mb-4">33/7, Block D, Mirpur, Dhaka, Bangladesh</p>
+              <p class="mb-4">Guru Nanak Institute Of Technology,Sodepur</p>
 
               <p class="mb-0 font-weight-bold">Phone</p>
-              <p class="mb-4"><a href="#">+88 01798128799</a></p>
+              <p class="mb-4"><a href="#">+919874268760</a></p>
 
               <p class="mb-0 font-weight-bold">Email Address</p>
-              <p class="mb-0"><a href="#">nazmul199512@gmail.com</a></p>
+              <p class="mb-0"><a href="#">biswasprithviraj74@gmail.com</a></p>
 
             </div>
           </div>

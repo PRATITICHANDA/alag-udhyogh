@@ -4,6 +4,26 @@
 {% load  static %}
 
 {% block content %}
+<!DOCTYPE html>
+<html lang="en-US">
+<body>
+
+<p>Translate this page:</p>
+
+<div id="google_translate_element"></div>
+
+<script type="text/javascript">
+function googleTranslateElementInit() {
+  new google.translate.TranslateElement({pageLanguage: 'en'}, 'google_translate_element');
+}
+</script>
+
+<script type="text/javascript" src="//translate.google.com/translate_a/element.js?cb=googleTranslateElementInit"></script>
+
+<p>You can translate the content of this page by selecting a language in the select box.</p>
+
+</body>
+</html>
 <section class="home-section section-hero inner-page overlay bg-image"
       style="background-image: url('images/hero_1.jpg');" id="home-section">
       <div class="container">
@@ -33,6 +53,19 @@
             <form action="/accounts/signup/" method="POST" >{% csrf_token %}
 
               {{ form|crispy}}
+                <html>
+  <head>
+    <title>reCAPTCHA demo: Simple page</title>
+    <script src="https://www.google.com/recaptcha/api.js" async defer></script>
+  </head>
+  <body>
+    <form action="?" method="POST">
+      <div class="g-recaptcha" data-sitekey="6LeIxAcTAAAAAJcZVRqyHh71UMIEGNQ_MXjiZKhI"></div>
+      <br/>
+      <input type="submit" value="Submit">
+    </form>
+  </body>
+</html>
 
               <div class="row form-group">
                 <div class="col-md-12">

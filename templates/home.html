@@ -7,217 +7,264 @@
 {% block content %}
 
   <!-- HOME -->
- 
    <section class="home-section section-hero overlay bg-image"  style="background-image: url('{% static 'images/hero_1.jpg' %}');" id="home-section">
-
-     
 	 <div class="container">
-       
 	 <div class="row align-items-center justify-content-center">
-     
+<!DOCTYPE html>
+<html lang="en-US">
+<body>
+<p>Translate this page:</p>
+<div id="google_translate_element"></div>
+<script type="text/javascript">
+function googleTranslateElementInit() {
+  new google.translate.TranslateElement({pageLanguage: 'en'}, 'google_translate_element');
+}
+</script>
+<script type="text/javascript" src="//translate.google.com/translate_a/element.js?cb=googleTranslateElementInit"></script>
+<p>You can translate the content of this page by selecting a language in the select box.</p>
+</body>
+</html>
 	 <div class="col-md-12">
-            
+
 	 <div class="mb-5 text-center">
-             
+
 	 <h1 class="text-white font-weight-bold">A Job portal for Organised and Unorganised Sectors </h1>
               <p>Find your dream jobs for better Indian economy with Training Modules </p>
             	</div>
-           
+
 	 <form id="job-main-form" method="get" action="{% url 'jobs:search' %}" class="search-jobs-form">
               <div class="row mb-5">
-              
+
 	  <div class="col-12 col-sm-6 col-md-6 col-lg-3 mb-4 mb-lg-0">
-             
+
 	      <input type="text"  id="title" name="title" class="form-control form-control-lg" placeholder=" Software Engineer ... ">
-            
+
 	    </div>
-             	
+
 	   <div class="col-12 col-sm-6 col-md-6 col-lg-3 mb-4 mb-lg-0">
-                
+
 	   <input    type="text" id="job_location" name="job_location" class="form-control form-control-lg" placeholder="Kolkata, India">
-               
+
 		 </div>
 
-               
+
 	 <div class="col-12 col-sm-6 col-md-6 col-lg-3 mb-4 mb-lg-0">
-            
+
       <select id="employment_status" name="employment_status" class="form-control">
-                    		
+
 		 <option>Part Time</option>
-                   		
+
 		 <option>Full Time</option>
-                    
+
 		 <option>Freelance</option>
                   </select>
                 </div>
 
 
                	 <div class="col-12 col-sm-6 col-md-6 col-lg-3 mb-4 mb-lg-0">
-                
+
 	  <button type="submit" class="btn btn-primary btn-lg btn-block text-white btn-search">
 	<span class="icon-search icon mr-2"></span>Search Job</button>
-           
+
 	     </div>
-          
+
+
 	    </div>
-           
+		 <link href="https://admin.chatcompose.com/static/EN/global/export/css/main.0ec6acf6.css" rel="stylesheet">
+<script async type="text/javascript" src="https://admin.chatcompose.com/static/EN/global/export/js/main.dec259c7.js" user="pb007-Simba"></script>
+
+
+		 <!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+.block {
+  display: block;
+  width: 100%;
+  border: none;
+  background-color: #4CAF50;
+  color: white;
+  padding: 14px 28px;
+  font-size: 16px;
+  cursor: pointer;
+  text-align: center;
+}
+
+.block:hover {
+  background-color: #ddd;
+  color: black;
+}
+</style>
+</head>
+<body>
+
+
+<button class="block"><a href="https://alagudhyogh.moodlecloud.com/mod/quiz/view.php?id=11">Test Your Skills</button>
+
+</body>
+</html>
+
+
+
 	 </form>
-        
+
 	  </div>
-       
+
 	 </div>
-     
 	 </div>
 
-
-   
 	 </section>
 
-   
+
 	 <section class="py-5 bg-image overlay-primary fixed overlay" style="background-image: url('images/hero_1.jpg');">
-    
+
 	  <div class="container">
-     
+
 	   <div class="row mb-5 justify-content-center">
-         
+
 		 <div class="col-md-7 text-center">
-        
+
 		    <h2 class="section-title mb-2 text-white">Careers Statistics</h2>
-       
+
      <p class="lead text-white"></p>
-         
+
 	 </div>
-      
+
 	  </div>
-       
+
 	 <div class="row pb-0 block__19738 section-counter">
 
-          
+
 	<div class="col-6 col-md-6 col-lg-3 mb-5 mb-lg-0">
-           
+
 	 <div class="d-flex align-items-center justify-content-center mb-2">
-            
+
 	  <strong class="number" data-number="{{ candidates }}">0</strong>
-        
+
 	    </div>
-           
+
 	 <span class="caption">Candidates</span>
-        
+
 	  </div>
 
           <div class="col-6 col-md-6 col-lg-3 mb-5 mb-lg-0">
-           
+
 	 <div class="d-flex align-items-center justify-content-center mb-2">
-         
+
      <strong class="number" data-number="{{ job_qs }}"> 0 </strong>
-           
-	 </div>
-         
-	   <span class="caption"> Jobs Posted</span>
-         
+
 	 </div>
 
-          
+	   <span class="caption"> Jobs Posted</span>
+
+	 </div>
+
+
 	<div class="col-6 col-md-6 col-lg-3 mb-5 mb-lg-0">
-         
+
 	   <div class="d-flex align-items-center justify-content-center mb-2">
-             
+
 	 <strong class="number" data-number="">0</strong>
-        
+
 	    </div>
-       
+
 	     <span class="caption">Jobs Filled</span>
-    
+
 	      </div>
 
-          
+
 		<div class="col-6 col-md-6 col-lg-3 mb-5 mb-lg-0">
-    
+
 	        <div class="d-flex align-items-center justify-content-center mb-2">
-          
+
 	    <strong class="number" data-number="{{ company_name }}">0</strong>
-     
+
 	       </div>
-           
+
 	 <span class="caption">Companies</span>
-     
+
 	     </div>
-
-
         </div>
       </div>
     </section>
 
 
 
-
-   
-	
 	 <section class="py-5 bg-image overlay-primary fixed overlay" >
-    
+
 	  <div class="container">
-     
+
 	   <div class="row align-items-center">
-     
+
 	     <div class="col-md-8">
-           
+
 		 <h2 class="text-white">Looking For A Job?</h2>
-         
+
 		   <p class="mb-0 text-white lead">Find the best in our Website</p>
               </p>
           </div>
-         
+
 	 <div class="col-md-3 ml-auto">
             <a href="{% url 'accounts:signup' %}" class="btn btn-warning btn-block btn-lg">Sign Up</a>
           </div>
-   
-	 <div class="col-md-3 ml-auto">
+
+
+
+		<div class="col-md-3 ml-auto">
+            <a href="{% url 'accounts:signup' %}" class="btn btn-warning btn-block btn-lg">Post a Tender</a>
+          </div>
+
+
+		   <div class="col-md-3 ml-auto">
             <a href="{% url 'accounts:login' %}" class="btn btn-warning btn-block btn-lg">Log In</a>
           </div></section>
 
 
+</section>
 
 
-   
+
+
 
 
 	 <section class="site-section">
-   
+
 	  <div class="container">
 
 
 
-      
+
 	  <div class="mb-5">
-           
+
 		  {% for q in query %}
 
-       
+
 		   <div class="row align-items-start job-item border-bottom pb-3 mb-3 pt-3">
-        
+
 			    <div class="col-md-2">
-       
+
 				       <a href="#"><img src="{% static 'images/featured-listing-1.jpg' %}" alt="Image" class="img-fluid"></a>
             </div>
-   
+
          	<div class="col-md-4">
-    
+
 	          <span class="badge badge-primary px-2 py-1 mb-3">
 
- 
+
                    {{ q.employment_status }}
 
-    
+
 		          </span>
-        
+
 			      <h2><a href="{% url 'jobs:job-single' q.id %}">{{ q.title }}</a> </h2>
-    
+
 	          <p class="meta">Publisher: <strong>{{ q.user.first_name }} {{ q.user.last_name }}</strong> In: <strong>{{ q.category }}</strong></p>
-    
+
         </div>
-         
+
 	   <div class="col-md-3 text-left">
-         
+
      <h3>{{ q.job_location }}</h3>
               <span class="meta"></span>
             </div>
@@ -225,15 +272,41 @@
               <strong class="text-black">{{ q.Salary }}</strong>
             </div>
           </div>
+		  <div id="cp_widget_9198f050-859a-4f47-82c9-9aa20e781caf">...
+		  </div>
+
+
+
 
 {% endfor %}
-        </div>
+		  <h2>Recent Tenders</h2>
+<div id="cp_widget_c77f3202-2754-4289-8089-c879bdcaed74">...
+</div>
+		  <script type="text/javascript">
+var cpo = []; cpo["_object"] ="cp_widget_c77f3202-2754-4289-8089-c879bdcaed74"; cpo["_fid"] = "AEKAevOX6cZa";
+var _cpmp = _cpmp || []; _cpmp.push(cpo);
+(function() { var cp = document.createElement("script"); cp.type = "text/javascript";
+cp.async = true; cp.src = "//www.cincopa.com/media-platform/runtime/libasync.js";
+var c = document.getElementsByTagName("script")[0];
+c.parentNode.insertBefore(cp, c); })();
+</script>
 
 
 
 
-      </div>
-    </section>
+
+
+<html>
+<a href="https://www.un.org/development/desa/dpad/publication/world-economic-situation-and-prospects-april-2019-briefing-no-125/"><img height=1080 width=1000 src="https://www.un.org/development/desa/dpad/wp-content/uploads/sites/45/wesp-mb_apr2019_fig2.png" alt="https://www.un.org/development/desa/dpad/publication/world-economic-situation-and-prospects-april-2019-briefing-no-125/" >
+</a>
+
+</html>
+
+
+<div id="cp_widget_9198f050-859a-4f47-82c9-9aa20e781caf">...
+</div>
+
+
 
 
 
@@ -242,13 +315,14 @@
         <div class="owl-carousel single-carousel">
 
 
+
           <div class="container">
             <div class="row">
               <div class="col-lg-6 mx-auto">
                 <img class="img-fluid mx-auto" src="{% static 'images/person_1.jpg' %}" alt="Image">
                 <blockquote>
-                  <p>&ldquo;Soluta quasi cum delectus eum facilis recusandae nesciunt molestias accusantium libero dolores repellat id in dolorem laborum ad modi qui at quas dolorum voluptatem voluptatum repudiandae.&rdquo;</p>
-                  <p><cite> &mdash; Richard Anderson</cite></p>
+                  <p>&ldquo;This create a gap between the rich and the poor. I am very happy for being the first customer and getting my job through this website. .&rdquo;</p>
+                  <p><cite> &mdash; Shreya Saha</cite></p>
                 </blockquote>
               </div>
             </div>
@@ -259,8 +333,8 @@
               <div class="col-lg-6 mx-auto">
                 <img class="img-fluid mx-auto" src="{% static 'images/person_2.jpg' %}" alt="Image">
                 <blockquote>
-                  <p>&ldquo;Soluta quasi cum delectus eum facilis recusandae nesciunt molestias accusantium libero dolores repellat id in dolorem laborum ad modi qui at quas dolorum voluptatem voluptatum repudiandae.&rdquo;</p>
-                  <p><cite> &mdash; Chris Peters</cite></p>
+                  <p>&ldquo;This website helps for betterment of economic growth. This helps to lessen the unemployable rate in India amongst this pandemic situation. &rdquo;</p>
+                  <p><cite> &mdash; Pratiti Chanda</cite></p>
                 </blockquote>
               </div>
             </div>
